@@ -175,6 +175,6 @@ if st.button("🔍 Calculate"):
     # Display results
     st.markdown('<h3 style="color:white;">Results</h3>', unsafe_allow_html=True)
     st.markdown(f'<p style="color:white; font-size:16px;"><strong>Total bandwidth required:</strong> {bandwidth:.4f} {output_unit}</p>', unsafe_allow_html=True)
-    st.markdown(f'<p style="color:white; font-size:16px;"><strong>Bandwidth required per X-ray Machine (Lane):</strong> {bandwidth_per_machine:.4f} {output_unit}</p>', unsafe_allow_html=True)
+    st.markdown(f'<p style="color:white; font-size:16px;"><strong>Bandwidth required per X-ray Machine :</strong> {bandwidth_per_machine:.4f} {output_unit}</p>', unsafe_allow_html=True)
     st.markdown(f'<p style="color:white; font-size:16px;"><strong>Total rejected bags:</strong> {rejected_bags:.4f} bags</p>', unsafe_allow_html=True)
     st.markdown(f'<p style="color:white; font-size:16px;"><strong>Total bags from site:</strong> {total_bags_from_site:.4f} bags</p>', unsafe_allow_html=True)
